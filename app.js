@@ -1,4 +1,4 @@
-/*
+﻿/*
 *生成附件函数，返回附件名称
 *如何计算收件人，有重复情况下暂时可不考虑
 *发送邮件函数，收件人，主题，附件作为参数 
@@ -29,14 +29,14 @@ parseMail('a.xlsx', parseInt(column));
 //   port:25,
 //   secure:false,
 //   auth: {
-//     user: 'nizhiwang.sq',
+//     user: 'test888.sq',
 //     pass: 'sy123123' //授权码,通过QQ获取
 
 //   }
 //   });
 //   var mailOptions = {
-//     from: 'nizhiwang.sq@jsoa.net', // 发送者
-//     to: 'nizhiwang.sq@jsoa.net', // 接受者,可以同时发送多个,以逗号隔开
+//     from: 'test888.sq@jsoa.net', // 发送者
+//     to: '333.sq@jsoa.net', // 接受者,可以同时发送多个,以逗号隔开
 //     subject: 'nodemailer2.5.0邮件发送', // 标题
 //     //text: 'Hello world', // 文本
 //     html: content//iconv.decode(buffer,code)
